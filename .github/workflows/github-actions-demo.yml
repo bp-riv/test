@@ -1,0 +1,14 @@
+name: GitHub Actions Demo
+run-name: ${{ github.actor }} is testing out GitHub Actions
+on: [push]
+jobs:
+    Explore-GitHub-Actions:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "The job was triggeres by a ${{ github.event_name }}$"
+            - run: echo "Running on ${{ runner.os }} remote server"
+            - run: echo "Branch name: ${{ github.ref }}"
+            - run: echo "Repository name: ${{ github.repository}}"
+            - name: List files in the repository...
+                run: |
+                    ls ${{ github.workspace }}
