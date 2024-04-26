@@ -1,3 +1,4 @@
 ciaisa
 a
-nuovo
+primo commit...al completo.
+Questa azione viene effettuata dopo.
