@@ -2,3 +2,4 @@ This file is created in branch_A.
 We modify now this file AFTER HAVING MERGED
 branch_A into main, to check if git is aware of
 further branch modification.
+OOOO
