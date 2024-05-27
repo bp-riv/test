@@ -1,3 +1,5 @@
 Just to modify after having committed,
 to see if by using amend I can create a single commit rather than two
 differents.
+
+Now let's modify it again and check that we obtain TWO commits.
